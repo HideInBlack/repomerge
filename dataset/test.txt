@@ -1,0 +1,4 @@
+if ( LOG . isDebugEnabled ( ) ) { \n LOG . debug ( \n \n<<<<<<< \"Class of attribute \" \n||||||| \"Klasse des Attributs \" \n=======\n\"Klasse des Attributs \" \n \n>>>>>>> \n+ mai . getName ( ) \n + \" (within conversion request)\" // NOI18N \n	
+public void testRemoveStringArray ( ) <<<<<<< \nthrows InvalidAttributeValueException , NamingException \n=======\nthrows Exception \n>>>>>>>	
+String r = Hudson . getInstance ( ) . getRootUrl ( ) ; \n if ( r == null ) \n throw new IllegalStateException ( \"Root URL isn't configured yet. Cannot compute absolute URL.\" ) ; \n return Util . encode ( \n<<<<<<< Jenkins . getInstance ( ) . getRootUrl ( ) \n||||||| \nHudson . getInstance ( ) . getRootUrl ( ) \n=======\nr \n>>>>>>> \n+ getUrl ( ) ) ; \n	
+\n<<<<<<< \n_methodName572 = \"isVisibleInContest\" ; \n \n _methodParameterTypes572 \n||||||| \n_methodParameterTypes571 \n=======\n_methodParameterTypes577 \n>>>>>>> \n= new String [ ] { \n	
